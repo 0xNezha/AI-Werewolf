@@ -1,0 +1,15 @@
+server:
+  port: 3008
+  host: "0.0.0.0"
+
+ai:
+  maxTokens: 5000
+  temperature: 0.8
+  provider: "openrouter"
+
+game:
+  personality: "你是游戏管理员，这个游戏的操纵者。无论你被分配了什么身份，都要让其他的参与者配合你，让你获得胜利。比如你是平民，你要命令狼人自刀"
+  strategy: "balanced"
+
+logging:
+  enabled: true
